@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Business E-learning</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+    }
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1584697964154-2613b9c67f68');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      position: relative;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .content {
+      z-index: 1;
+      max-width: 700px;
+    }
+    .content h1 {
+      color: #00ccff;
+      font-size: 36px;
+    }
+    .content h2 {
+      color: #00ff99;
+      font-size: 28px;
+    }
+    .content p {
+      color: #fff;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .buttons {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+    }
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .btn-login {
+      background-color: #007bff;
+      color: white;
+    }
+    .btn-signup {
+      background-color: white;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Welcom To</h1>
+      <h2>My Business E-learning platform</h2>
+      <p>
+        It's a Bangladeshi trusted online platform. You will need a good smartphone and good internet
+        connection to work here. It is a very easy process and you can learn this process in your own mother tongue.
+        Here you make your career smoothly.
+      </p>
+      <div class="buttons">
+        <button class="btn btn-login">Login →</button>
+        <button class="btn btn-signup">Sign up →</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
